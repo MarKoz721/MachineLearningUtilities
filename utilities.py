@@ -1,5 +1,6 @@
 from sklearn.metrics import ConfusionMatrixDisplay, confusion_matrix
 from sklearn.metrics import accuracy_score
+import seaborn as sns
 
 def plot_matrix(y_true, y_pred, labels, accuracy=True,
                 normalize=None, figsize=(10, 8), ax=None, custom_title=None):
