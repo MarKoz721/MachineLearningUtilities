@@ -16,6 +16,7 @@ setup(
     include_package_data=True,
     zip_safe=True,
     install_requires=[
-        "sklearn"
+        "sklearn",
+        "seaborn"
     ]
 )
